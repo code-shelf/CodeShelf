@@ -1,14 +1,9 @@
 # README
 
-CodeShelf is a website dedicated to collecting, creating and polishing web tools used for digital storytelling. That is all for now.
+CodeShelf develops incomplete hackathon projects into generalized, easy-to-use newsroom technology. CodeShelf is built for journalists, newsroom developers and web producers.
 
 # TODO
 
-* change typeface
-* polish callout section
-* polish navbar [DONE]
-* troubleshoot weird grid behaviour
-* build singular tool page
 * add footer w/ contact form (see Foundation [Building Blocks](http://zurb.com/building-blocks/))
 * center header image and add tagline overlay to image [DONE/CHANGED]
 * add tag filter JS 
