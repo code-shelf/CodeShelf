@@ -6444,9 +6444,14 @@ h3.bodycopy {
   padding: 0 20px; }
 
 h4.bodycopy {
-  font-weight: bold;
   font-size: 1rem;
   padding: 0 20px; }
 
 p.bodycopy {
   padding: 0 20px; }
+
+h2.toolpage {
+  font-size: 1.3rem; }
+
+h3.toolpage {
+  font-size: 0.8rem; }

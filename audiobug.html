@@ -46,10 +46,10 @@
       <div class="toolpage hero small-12 columns">
         <img class="toolpage hero-img" src="img/audiobug.png" alt="">
         <h1 class="hero text-center"><span class="hero primary title-font hero-logo">/</span><span class="hero secondary title-font hero-logo">AUDIOBUG</span></h1>
-        <h2 class="hero text-center subheader">A fixed audio player that changes audio as you scroll.</h2>
-        <h3 class="text-center subheader">by</h3><h3 class="text-center subheader"><a href="https://github.com/jdhancock88">John Hancock</a> & <a href="https://github.com/golfecholima">George LeVines</a></h3>
-        <h2 class="categories hero text-center primary">Skill Level: 1</h2>
-        <h2 class="categories hero text-center primary">Responsive: YES</h2>
+        <h2 class="hero toolpage text-center subheader">A fixed audio player that changes audio as you scroll.</h2>
+        <h3 class="text-center toolpage subheader">by <a href="https://github.com/jdhancock88">John Hancock</a> & <a href="https://github.com/golfecholima">George LeVines</a></h3>
+        <h3 class="categories toolpage hero text-center primary">Skill Level: 1</h3>
+        <h3 class="categories toolpage hero text-center primary">Responsive: YES</h3>
       </div>
     </div>
     <hr/>
@@ -60,10 +60,8 @@
       <h1 class="title-font bodycopy">What is Audiobug?</h1>
       <h4 class="bodycopy">Audiobug introduces an unobtrusive audio player that lives in the bottom-right corner of your viewport. As the user scrolls through the page, audio files are swapped in to fit the story context.</h4>
       </br>
-      </br>
-      <h1 class="title-font bodycopy">How do I use Audiobug?</h1>
-      <h3 class="bodycopy">Here's the HTML:</h3>
-      <h4 class="bodycopy">To create the bug ...</h4>
+      <h1 class="title-font bodycopy">How to</h1>
+      <h4 class="bodycopy">Create the bug in your HTML</h4>
         <pre>
           <code>
           &lt;div class=&quot;audioBug clearFix&quot;&gt;
@@ -72,24 +70,20 @@
           &lt;/div&gt;
           </code>
         </pre>
-      </br>
-      </br>
-      <h4 class="bodycopy">To call jQuery ...</h4>
-      <p class="bodycopy">(Place this before the end of your &lt;/body&gt; tag.)</p>
+      <h4 class="bodycopy">Call jQuery in your HTML</h4>
+      <p class="bodycopy"><em>(Place this before the end of your &lt;/body&gt; tag.)</em></p>
         <pre><code>
           &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
           &lt;script&gt;window.jQuery || document.write('&lt;script src=&quot;js/vendor/jquery-1.11.2.min.js&quot;&gt;&lt;\/script&gt;')&lt;/script&gt;
         </code></pre>
       </br>
-      </br>
-      <h4 class="bodycopy">To call the audiobug script ...</h4>
-      <p class="bodycopy">(Place this before the end of your &lt;/body&gt; tag.)</p>
+      <h4 class="bodycopy">Call the audio-bug.js file in your HTML</h4>
+      <p class="bodycopy"><em>(Place this before the end of your &lt;/body&gt; tag.)</em></p>
         <pre><code>
           &lt;script src=&quot;js/audio-bug.js&quot;&gt;&lt;/script&gt;
         </code></pre>
       </br>
-      </br>
-      <h3 class="bodycopy">Here's the Javascript:</h3>
+      <h4 class="bodycopy">To create the audio-bug.js file, copy and paste this Javascript into a text file and save as audio-bug.js</h4>
         <pre>
           <code>
         // BRING IN YOUR AUDIO FILES HERE
@@ -194,9 +188,8 @@
             });
           </code>
         </pre>
-        </br>
-        </br>
-        <h3 class="bodycopy">Here's the CSS:</h3>
+  
+        <h4 class="bodycopy">Here is the CSS to style the audiobug</h4>
          <pre>
             <code>
               /*clearfix hack */
