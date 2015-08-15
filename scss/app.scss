@@ -45,6 +45,10 @@
 
 $title-font: 'Teko', sans-serif;
 
+.row {
+	padding: 50px 0;
+}
+
 // Coloring
 
 .primary {
@@ -84,8 +88,9 @@ $title-font: 'Teko', sans-serif;
 // Hero
 
 .row.hero {
-	padding: 100px 0;
+	padding: 160px 0;
 }
+
 .image-overlay {
 	position: absolute;
 	bottom: 0px;
@@ -114,10 +119,10 @@ $title-font: 'Teko', sans-serif;
 }
 
 .row.callout {
-	margin: 100px auto;
+	margin: 20px auto 50px;
 	max-width: 100%;
 	width: 100%;
-	padding: 0 0 50px 0;
+	// padding: 0 0 50px 0;
 }
 
 h2.callout.text-center {
@@ -190,10 +195,23 @@ ul > li.tools {
 	}
 }
 
+.card-copy {
+	max-height: 120px;
+	overflow: scroll;
+}
+
 // HACKATHONS
 
 p.dates {
 	color: $white;
+}
+
+// CONTRIBUTE
+
+.github-icon {
+	margin: -50px 0 0 0;
+	font-size: 13rem;
+	display: block;
 }
 
 // TOOL PAGES
@@ -211,6 +229,10 @@ p.dates {
 }
 
 // Copy
+
+h1.title {
+	padding: 50px 0 0 0;
+}
 
 h1.bodycopy {
 	font-weight: bold;
@@ -239,4 +261,15 @@ h3.toolpage {
 	font-size: 0.8rem;
 }
 
+// Arrow
 
+.arrow-down {
+	width: 0px;
+	height: 0px;
+	position: relative;
+	top: -50px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #FFF;
+	margin: 0 auto;
+}

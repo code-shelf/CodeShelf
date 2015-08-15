@@ -6323,6 +6323,9 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+.row {
+  padding: 50px 0; }
+
 .primary {
   color: #B15200; }
 
@@ -6348,7 +6351,7 @@ th.hide-for-touch {
   color: #6F6F6F; }
 
 .row.hero {
-  padding: 100px 0; }
+  padding: 160px 0; }
 
 .image-overlay {
   position: absolute;
@@ -6367,10 +6370,9 @@ th.hide-for-touch {
   color: #FFFFFF; }
 
 .row.callout {
-  margin: 100px auto;
+  margin: 20px auto 50px;
   max-width: 100%;
-  width: 100%;
-  padding: 0 0 50px 0; }
+  width: 100%; }
 
 h2.callout.text-center {
   font-weight: bold;
@@ -6424,8 +6426,17 @@ ul > li.tools {
       padding: .5rem;
       margin: -3rem 0; }
 
+.card-copy {
+  max-height: 120px;
+  overflow: scroll; }
+
 p.dates {
   color: #FFFFFF; }
+
+.github-icon {
+  margin: -50px 0 0 0;
+  font-size: 13rem;
+  display: block; }
 
 .hero-img {
   display: block;
@@ -6434,6 +6445,9 @@ p.dates {
 
 .toolpage.hero.row {
   padding: 20px 0; }
+
+h1.title {
+  padding: 50px 0 0 0; }
 
 h1.bodycopy {
   font-weight: bold;
@@ -6455,3 +6469,13 @@ h2.toolpage {
 
 h3.toolpage {
   font-size: 0.8rem; }
+
+.arrow-down {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  top: -50px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #FFF;
+  margin: 0 auto; }
