@@ -6382,8 +6382,7 @@ h2.callout.text-center {
 
 p.callout {
   color: #FFFFFF;
-  text-align: justified;
-  padding: 0 70px; }
+  padding: 0 40px; }
   p.callout a {
     color: #FFFFFF;
     text-decoration: underline; }
